@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="有点改动">
-      <change afterPath="$PROJECT_DIR$/basis/eval_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basis/import_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basis/print_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basis/random_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basis/str_function.py" afterDir="false" />
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="有所改动">
+      <change afterPath="$PROJECT_DIR$/Test/color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图片排序/img_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/图片排序/img_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basis/random_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/basis/random_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basis/str_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/basis/str_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,8 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/basis/random_function.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rKbcY1jUqYEEbiQ1AerlkgjVUY" />
   <component name="ProjectLevelVcsManager">
@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="deletionFromPopupRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -197,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618743197283</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="巩固python基础操作">
+      <created>1618817784354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618817784354</updated>
+    </task>
+    <task id="LOCAL-00004" summary="有所改动">
+      <created>1618817813377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618817813377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交代码" />
     <MESSAGE value="有点改动" />
-    <option name="LAST_COMMIT_MESSAGE" value="有点改动" />
+    <MESSAGE value="巩固python基础操作" />
+    <MESSAGE value="有所改动" />
+    <option name="LAST_COMMIT_MESSAGE" value="有所改动" />
   </component>
 </project>

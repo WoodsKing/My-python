@@ -1,6 +1,5 @@
-# 随机random模块
 import random
-
+# 随机random模块
 """
 seed()                          初始化随机种子
 random()                        生成[0.0,1.0)只见随机数

@@ -7,7 +7,6 @@
 
 
 """
-
 str1 = 'qwertyuiop'
 print(str1[:-1])            # 切片
 print(str1[1:])             # 切片
