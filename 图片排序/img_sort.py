@@ -28,8 +28,6 @@ def serch_str(str_list):
     return unber_list, char_list
 
 
-
-
 def move_name(unber_list, char_list):
     str_len = len(unber_list) + len(char_list)  # 获取总长度
     print('\nunber:%d\nonunber:%d\nsmu%d\n' % (len(unber_list), len(char_list), len(unber_list) + len(char_list)))
