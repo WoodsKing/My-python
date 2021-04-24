@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="urllib库data参数">
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.3urllib_use_timeout_parameter" afterDir="false" />
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="更改一下路径">
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/1.get方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/2.get_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/3.post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/4.文件上传.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/5.获取cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.1urllib_use_GetWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.1urllib_use_GetWeb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.2urllib_use_data_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.2urllib_use_data_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.1urllib_use_GetWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.1urllib_use_GetWeb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.2urllib_use_data_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.2urllib_use_data_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.3urllib_use_timeout_parameter" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.3urllib_use_timeout_parameter" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +65,25 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.3urllib_use_timeout_parameter">
-    <configuration name="1.1urllib_use_GetWeb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\python\爬虫学习\1.基本库使用\urllib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.6.cookies设置">
+    <configuration name="2.get_img (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="D:\code\python\爬虫学习\1.基本库使用\urllib\1.1urllib_use_GetWeb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/2.get_img.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,19 +92,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1.2urllib_use_data_parameter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3.post" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="D:\code\python\爬虫学习\1.基本库使用\urllib\1.2urllib_use_data_parameter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/3.post.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,19 +113,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1.3urllib_use_timeout_parameter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4.文件上传" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="D:\code\python\爬虫学习\1.基本库使用\urllib\1.3urllib_use_timeout_parameter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/4.文件上传.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,19 +134,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5.获取cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basis/dictionary_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/5.获取cookies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6.cookies设置" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,34 +197,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basis" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basis/random_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1.3urllib_use_timeout_parameter" />
-        <item itemvalue="Python.1.2urllib_use_data_parameter" />
-        <item itemvalue="Python.1.1urllib_use_GetWeb" />
-        <item itemvalue="Python.dictionary_function" />
-        <item itemvalue="Python.random_function" />
+        <item itemvalue="Python.6.cookies设置" />
+        <item itemvalue="Python.5.获取cookies" />
+        <item itemvalue="Python.4.文件上传" />
+        <item itemvalue="Python.3.post" />
+        <item itemvalue="Python.2.get_img (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619253760269</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更改一下路径">
+      <created>1619257571412</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619257571412</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +334,7 @@
     <MESSAGE value="一点点心得" />
     <MESSAGE value="urllib库网页获取" />
     <MESSAGE value="urllib库data参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="urllib库data参数" />
+    <MESSAGE value="更改一下路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改一下路径" />
   </component>
 </project>
