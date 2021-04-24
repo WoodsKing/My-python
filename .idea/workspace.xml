@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="略有改动">
-      <change afterPath="$PROJECT_DIR$/basis/dictionary_function.py" afterDir="false" />
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="完善字典类型操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图片排序/img_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/图片排序/img_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +47,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="deletionFromPopupRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings is-module-sdk="true" working-directory="$PROJECT_DIR$">
-        <option name="myUseModuleSdk" value="true" />
+      <console-settings sdk-home="D:\RJ\Python\python.exe" working-directory="$PROJECT_DIR$">
+        <option name="mySdkHome" value="D:\RJ\Python\python.exe" />
         <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618884284684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完善字典类型操作">
+      <created>1618886962961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618886962961</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +281,7 @@
     <MESSAGE value="有所改动" />
     <MESSAGE value="发现新大陆" />
     <MESSAGE value="略有改动" />
-    <option name="LAST_COMMIT_MESSAGE" value="略有改动" />
+    <MESSAGE value="完善字典类型操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善字典类型操作" />
   </component>
 </project>
