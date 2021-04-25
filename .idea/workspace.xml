@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="更改一下路径">
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/1.get方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/2.get_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/3.post.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/4.文件上传.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/5.获取cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" afterDir="false" />
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Test/知乎登入.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.1urllib_use_GetWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.1urllib_use_GetWeb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.2urllib_use_data_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.2urllib_use_data_parameter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib/1.3urllib_use_timeout_parameter" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/1.urllib/1.3urllib_use_timeout_parameter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +64,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.6.cookies设置">
-    <configuration name="2.get_img (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="知乎登入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/2.get_img.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/知乎登入.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.6.cookies设置" />
+        <item itemvalue="Python.知乎登入" />
         <item itemvalue="Python.5.获取cookies" />
         <item itemvalue="Python.4.文件上传" />
         <item itemvalue="Python.3.post" />
-        <item itemvalue="Python.2.get_img (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619257571412</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1619262115822</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619262115822</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +335,7 @@
     <MESSAGE value="urllib库网页获取" />
     <MESSAGE value="urllib库data参数" />
     <MESSAGE value="更改一下路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改一下路径" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
