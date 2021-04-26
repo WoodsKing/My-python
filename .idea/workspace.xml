@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/Test/知乎登入.py" afterDir="false" />
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="知乎登入">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" afterDir="false" />
     </list>
@@ -48,7 +48,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="deletionFromPopupRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -162,7 +163,7 @@
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/2.requests/6.cookies设置.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -194,9 +195,9 @@
       <list>
         <item itemvalue="Python.6.cookies设置" />
         <item itemvalue="Python.知乎登入" />
+        <item itemvalue="Python.6.cookies设置" />
         <item itemvalue="Python.5.获取cookies" />
         <item itemvalue="Python.4.文件上传" />
-        <item itemvalue="Python.3.post" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619262115822</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="知乎登入">
+      <created>1619316346542</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619316346542</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +344,7 @@
     <MESSAGE value="urllib库data参数" />
     <MESSAGE value="更改一下路径" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="知乎登入" />
+    <option name="LAST_COMMIT_MESSAGE" value="知乎登入" />
   </component>
 </project>
