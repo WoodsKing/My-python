@@ -2,14 +2,12 @@ import requests
 import time
 xuehao = '1903021709'   #学号
 mima = 'xtt988520'  #密码
+
+
 class Signin_Cqcet:
 
     def __init__(self, username, password,weekl):
-        self.headers = {
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                  'Chrome/89.0.4389.128 Safari/537.36 ',
-    'Host': 'ossc.cqcet.edu.cn'
-}
+
         self.sign_data = {
     'type':1,
     'username': username,
@@ -32,7 +30,13 @@ class Signin_Cqcet:
         self.add_url = 'http://ossc.cqcet.edu.cn/xg/teaching/student/teach/add'
     #登入智慧校园
     def Signin(self):
-        self.session.get(self.login_url,headers=self.headers)
+        headers = {
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/89.0.4389.128 Safari/537.36 ',
+            'Host': 'ossc.cqcet.edu.cn'
+        }
+        self.session.headers.update(headers)
+        self.session.get(self.login_url)
         time.sleep(0.1)
         r = self.session.post(self.login_process_url,data=self.sign_data)
         time.sleep(0.1)
@@ -41,10 +45,10 @@ class Signin_Cqcet:
     # 获取教评信息
     def getlist(self):
         self.Signin()
-        add_data = {}
         self.session.get(self.evaluation_url)
         time.sleep(0.1)
         list = self.session.post(self.get_list_url,data=self.list_data)
+        print(list.request.headers)
         time.sleep(0.1)
         return list.json()['rows']
 
@@ -52,8 +56,7 @@ class Signin_Cqcet:
     def post_add(self):
         add_data_list =  self.getlist()
         add_data = {
-            'evaluationProject': [
-                {"name":"老师教得怎么样?","id":"teach_situation","value":"5"},
+            'evaluationProject': [{"name":"老师教得怎么样?","id":"teach_situation","value":"5"},
                 {"name":"学习收获怎么样?","id":"learn_harvest","value":"5"},
                 {"name":"纪律管理怎么样?","id":"discipline","value":"5"},
                 {"name":"课堂互动怎么样?","id":"interaction","value":"5"},
@@ -71,13 +74,18 @@ class Signin_Cqcet:
             add_data['term'] = i['xq']
             add_data['taskId'] = i['yxh']
             add_data['weekly'] = i['weekly']
-            r = self.session.post(self.add_url,json=add_data)
+            r = self.session.post(self.add_url,data=add_data)
+            print(r.request.headers)
+"""
             print(add_data)
             print(r.text)
             time.sleep(0.1)
             print(i['complete'])
             print('已教评：',i['kcmc'])
+"""
 
 
-cqcet = Signin_Cqcet(xuehao,mima,9)
+
+cqcet = Signin_Cqcet(xuehao,mima,7)
+cqcet.Signin()
 cqcet.post_add()
