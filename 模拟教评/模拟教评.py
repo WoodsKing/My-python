@@ -41,7 +41,7 @@ class signincqcet:
         self.session.headers.update(headers)
         self.session.get(self.login_url)
         time.sleep(0.1)
-        k = self.session.post(self.login_process_url, data=self.sign_data)
+        self.session.post(self.login_process_url, data=self.sign_data)
         time.sleep(0.1)
         # print(k.request.headers)
 
@@ -85,7 +85,7 @@ class signincqcet:
             data['taskId'] = i['yxh']
             # print(data)
             if not i['complete']:
-                r = self.session.post(self.add_url, data=data)
+                self.session.post(self.add_url, data=data)
                 time.sleep(0.1)
             print('已教评第{}周：{}'.format(i['weekly'], i['kcmc']))
 
