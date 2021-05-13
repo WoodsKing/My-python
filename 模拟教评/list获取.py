@@ -3,8 +3,7 @@ import requests
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                   'Chrome/89.0.4389.128 Safari/537.36 ',
-    'Cookie': 'JSESSIONID=c661d0d6-9dcd-41ff-8080-55e685e87032; JSESSIONID=0B324F4B7CE8E29E3FCB09A76F018A13; '
-              'login_name=1903021662',
+    'Cookie': 'JSESSIONID=c661d0d6-9dcd-41ff-8080-55e685e87032; JSESSIONID=0B324F4B7CE8E29E3FCB09A76F018A13; ',
     'Host': 'ossc.cqcet.edu.cn'
 }
 data1 = {

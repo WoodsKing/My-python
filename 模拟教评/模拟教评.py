@@ -3,8 +3,8 @@ from urllib.parse import urlencode
 import time
 import json
 
-xuehao = '1903021662'  # 学号
-mima = '2465681755mjy'  # 密码
+xuehao = '********'  # 学号
+mima = '**********'  # 密码
 
 
 class signincqcet:
