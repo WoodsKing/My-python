@@ -4,7 +4,7 @@ import time
 import json
 
 xuehao = '********'  # 学号
-mima = '**********'  # 密码
+mima = '************'  # 密码
 
 
 class signincqcet:
