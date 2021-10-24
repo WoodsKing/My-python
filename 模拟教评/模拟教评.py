@@ -3,8 +3,8 @@ from urllib.parse import urlencode
 import time
 import json
 
-xuehao = '********'  # 学号
-mima = '************'  # 密码
+xuehao = '1903021662'  # 学号
+mima = '2465681755mjy'  # 密码
 
 
 class signincqcet:
@@ -21,7 +21,7 @@ class signincqcet:
             'pageSize': '10',
             'pageNum': '1',
             'isAsc': 'asc',
-            'xnxq': '2020-2021-2',
+            'xnxq': '2021-2022-1',
             'weekly': weekl
         }
         self.session = requests.Session()

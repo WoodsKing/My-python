@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="提交代码">
-      <change afterPath="$PROJECT_DIR$/算法/中位数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/倒序输出.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模拟教评/模拟教评.py" beforeDir="false" afterPath="$PROJECT_DIR$/模拟教评/模拟教评.py" afterDir="false" />
-    </list>
+    <list default="true" id="7030f290-9c88-4f09-b586-51e53aea96c4" name="Default Changelist" comment="&#10;提交代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +32,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/模拟教评/模拟教评.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/basis/random_function.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/模拟教评/模拟教评.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rKbcY1jUqYEEbiQ1AerlkgjVUY" />
   <component name="ProjectLevelVcsManager">
@@ -49,15 +47,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="deletionFromPopupRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/爬虫学习/1.基本库使用/urllib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings sdk-home="D:\RJ\Python\python.exe" working-directory="$PROJECT_DIR$">
+      <console-settings sdk-home="D:\RJ\Python\python.exe" is-module-sdk="true" working-directory="$PROJECT_DIR$">
         <option name="mySdkHome" value="D:\RJ\Python\python.exe" />
+        <option name="myUseModuleSdk" value="true" />
         <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>
@@ -67,7 +66,7 @@
       <recent name="D:\code\python\爬虫学习\1.基本库使用\urllib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1.第一个空白窗口">
+  <component name="RunManager" selected="Python.2.button">
     <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,6 +193,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="微信登入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信登入" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信登入/微信登入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="模拟教评" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,19 +235,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="微信登入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="模拟教评" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信登入" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/模拟教评" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信登入/微信登入.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/模拟教评/模拟教评.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,19 +340,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="倒序输出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="负反馈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/倒序输出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/负反馈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,6 +374,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/模拟教评/模拟教评.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="倒序输出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/倒序输出.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -467,6 +508,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="模拟教评" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\RJ\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/模拟教评" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/模拟教评/模拟教评.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="概率验证" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,8 +573,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1.第一个空白窗口" />
         <item itemvalue="Python.2.button" />
+        <item itemvalue="Python.1.第一个空白窗口" />
         <item itemvalue="Python.测试1.0" />
         <item itemvalue="Python.测试" />
       </list>
@@ -744,7 +806,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622274692131</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&#10;提交代码">
+      <created>1622973790474</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622973790474</updated>
+    </task>
+    <task id="LOCAL-00033" summary="&#10;提交代码">
+      <created>1622974003204</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622974003204</updated>
+    </task>
+    <task id="LOCAL-00034" summary="&#10;提交代码">
+      <created>1622974016176</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622974016176</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -770,7 +853,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="有点改动" />
     <MESSAGE value="巩固python基础操作" />
     <MESSAGE value="有所改动" />
     <MESSAGE value="发现新大陆" />
@@ -795,18 +877,10 @@
     <MESSAGE value="项目失败" />
     <MESSAGE value="小改" />
     <MESSAGE value="提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
+    <MESSAGE value="&#10;提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;提交代码" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/模拟教评/模拟教评.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="r.cookies._cookies['ossc.cqcet.edu.cn']['/']['login_name']" language="Python" />
