@@ -1,0 +1,47 @@
+mysql -uroot -p123456 登入
+//约束条件
+
+
+//枚举，集合
+enum('男','女','男女')
+set('music','play','swing')
+//库
+create database db1 charset utf8; 创建库
+
+show create database db1; 查看库
+
+alter database db1 charset gbk; 改库编码
+drop database db1; 删库
+
+use db1;切换文件夹
+select db1;查看当前文件夹
+
+//表
+create table t1(id int,name char); 新增表
+show create table t1; 查看表
+desc t1;查看表
+show tables;查看所有表
+alter table t1 modify name char(6); 改name字符长度
+alter table t1 change name NAME char(7);该字段名
+create table t2(id int)engine=inondb;创建表并设置表的类型
+
+drop table t1;删除表
+
+//内容
+insert t1(id,NAME) values(1,'egg1'),(2,'egg2'),(3,'egg3');插入内容
+select id from db1.t1;查看表内容
+update db1.t1 set NAME='finish';改表内容
+update db1.t1 set NAME='finish' where id=1;改指定表内容
+delete from t1;删除这表
+delete from t1 where id=2;删除特定表
+
+
+
+show engines; 查看储存引擎
+
+mysql8.0
+
+
+SELECT VERSION(), CURRENT_DATE; 显示版本号和当前日期
+
+X3uh9DXyau--
